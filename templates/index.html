@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List APIs</title>
+</head>
+<body>
+    <h1>To-Do List APIs</h1>
+    
+    <h2>Create a todo item</h2>
+    <p>Method: POST</p>
+    <p>URL: /api/tasks/</p>
+    <p>Request Body: JSON representation of the task to be created</p>
+    <p>For Example {
+        "title": "Finish project",
+        "description": "Complete the implementation of the To-Do List app",
+        "due_date": "2023-06-30",
+        "status": "OPEN",
+        "tags": ["work", "urgent"]
+      }</p>
+    
+    <h2>Read one todo item</h2>
+    <p>Method: GET</p>
+    <p>URL: /api/tasks/{task_id}/</p>
+    
+    <h2>Read all todo items</h2>
+    <p>Method: GET</p>
+    <p>URL: /api/tasks/</p>
+    
+    <h2>Update a todo item</h2>
+    <p>Method: PUT or PATCH</p>
+    <p>URL: /api/tasks/{task_id}/</p>
+    <p>Request Body: JSON representation of the task with updated values</p>
+    <p>For Example {
+        "title": "Working project - update",
+        "description": "Complete the implementation - update",
+        "due_date": "2023-06-30",
+        "status": "OPEN",
+        "tags": ["work", "urgent"]
+      }</p>
+
+    <h2>Delete a todo item</h2>
+    <p>Method: DELETE</p>
+    <p>URL: /api/tasks/{task_id}/</p>
+    
+</body>
+</html>
