@@ -1,6 +1,7 @@
 # todoapp
 
-Download or git clone my repository into your local machine and open the todoapp folder in vs code
+Create a Dnjango folder in your local machine
+Download or git clone my repository into your local machine (Django folder) and open the Django folder in vs code
 
 In the terminal execute py -m venv env
 
