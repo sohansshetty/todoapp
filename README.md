@@ -1,10 +1,18 @@
 # todoapp
 
-Download or git clone my repository into your local machine
+Download or git clone my repository into your local machine and open the todoapp folder in vs code
 
-## Execute the following commands as shown in the screenshot
+In the terminal execute py -m venv env
 
-![commands](https://github.com/sohansshetty/todoapp/assets/77954795/79fd85ce-09f0-4125-9a13-482c04272595)
+Execute the following commands as shown in the screenshot
+
+![command1](https://github.com/sohansshetty/todoapp/assets/77954795/1f749836-3019-491e-9ad7-aaa91942b5e1)
+
+After that execute py -m pip install -r requirements.txt 
+
+Execute the following commands as shown in the screenshot
+
+![commands](https://github.com/sohansshetty/todoapp/assets/77954795/dcc4dc85-ba0c-49a6-9ab9-8e1dac4dc8f7)
 
 since i created the app usng python 3.11 it is not supported by most of the hosting 
 platforms so i have included the todoAppApi.postman_collection.json which you can import in 
