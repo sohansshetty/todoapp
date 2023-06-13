@@ -21,7 +21,7 @@ your local machine postman and can test all the apis in your local machine
 
 run http://localhost:8000/admin/ in your browser to check the live update of the database
 
-Admin credentials:
+## Admin credentials:
 
 username: sohan
 
