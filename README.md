@@ -18,3 +18,9 @@ Execute the following commands as shown in the screenshot
 since i created the app usng python 3.11 it is not supported by most of the hosting 
 platforms so i have included the todoAppApi.postman_collection.json which you can import in 
 your local machine postman and can test all the apis in your local machine
+
+run http://localhost:8000/admin/ in your browser to check thelive uopdate of the database
+
+Admin credentials:
+username: sohan
+password: sohan
