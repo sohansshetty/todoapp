@@ -7,8 +7,12 @@ or
 
 Import Postman collections by pasting the below url in the import section of the postman app to test the API: https://api.postman.com/collections/27680785-09838a7c-85da-40dc-8808-7a531e318fac?access_key=PMAT-01H3QCG1J8653WYFNW8YY0SDM8
 
+or 
+
+Import the Sohan Todo app api test.postman_collection.json file. 
+
 Create a Dnjango folder in your local machine
-Download or git clone my repository into your local machine (Django folder) and open the Django folder in vs code
+Download or git clone my repository into your local machine (Django folder) and open the Django folder in vs code.
 
 In the terminal execute `py -m venv env`
 
