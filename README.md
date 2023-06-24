@@ -1,7 +1,7 @@
 # Todo App Api
 URL: [https://sohansshetty.pythonanywhere.com/](https://sohansshetty.pythonanywhere.com/)
 
-Postman collection link: https://lunar-spaceship-252465.postman.co/workspace/Team-Workspace~bb5ced53-84bb-47ed-984a-b0eab28b0b4e/collection/27680785-09838a7c-85da-40dc-8808-7a531e318fac?action=share&creator=27680785
+Postman collection link: https://www.postman.com/lunar-spaceship-252465/workspace/team-workspace/collection/27680785-09838a7c-85da-40dc-8808-7a531e318fac?action=share&creator=27680785
 
 or
 
