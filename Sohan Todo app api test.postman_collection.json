@@ -1,0 +1,252 @@
+{
+	"info": {
+		"_postman_id": "09838a7c-85da-40dc-8808-7a531e318fac",
+		"name": "Sohan Todo app api test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27680785",
+		"_collection_link": "https://lunar-spaceship-252465.postman.co/workspace/New-Team-Workspace~773dda76-543f-4992-b51c-fdd48838409c/collection/27680785-09838a7c-85da-40dc-8808-7a531e318fac?action=share&creator=27680785&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "view task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sohan",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sohan",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sohansshetty.pythonanywhere.com/api/tasks/",
+					"protocol": "https",
+					"host": [
+						"sohansshetty",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"tasks",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sohan",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sohan",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Create project\",\r\n  \"description\": \"Complete the implementation of the To-Do List app\",\r\n  \"due_date\": \"2023-06-30\",\r\n  \"status\": \"OPEN\",\r\n  \"tags\": [\"urgent\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sohansshetty.pythonanywhere.com/api/tasks/",
+					"protocol": "https",
+					"host": [
+						"sohansshetty",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"tasks",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sohan",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sohan",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Update project\",\r\n  \"description\": \"Complete the implementation of the To-Do List app\",\r\n  \"due_date\": \"2023-06-30\",\r\n  \"status\": \"OPEN\",\r\n  \"tags\": [\"urgent\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sohansshetty.pythonanywhere.com/api/tasks/13/",
+					"protocol": "https",
+					"host": [
+						"sohansshetty",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sohan",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sohan",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://sohansshetty.pythonanywhere.com/api/tasks/9/",
+					"protocol": "https",
+					"host": [
+						"sohansshetty",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"9",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view task by id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sohan",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sohan",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sohansshetty.pythonanywhere.com/api/tasks/13/",
+					"protocol": "https",
+					"host": [
+						"sohansshetty",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "sohan",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "sohan",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
